@@ -6,9 +6,9 @@ The repo comes with configuration scripts for EC2 instance images for Amazon Lin
 
 | AMI          | Script                                     |
 | ------------ | ------------------------------------------ |
-| Amazon Linux | [amazon.conf](./flask-nginx/amazon.conf)   |
-| Ubuntu       | [ubuntu.conf](./flask-nginx/ubuntu.conf)   |
-| Windows      | [windows.conf](./flask-nginx/windows.conf) |
+| Amazon Linux | [amazon.conf](./user-data/flask-nginx/amazon.conf)   |
+| Ubuntu       | [ubuntu.conf](./user-data/flask-nginx/ubuntu.conf)   |
+| Windows      | [windows.conf](./user-data/flask-nginx/windows.conf) |
 
 ---
 
@@ -20,6 +20,6 @@ The repo comes with configuration scripts for EC2 instance images for Amazon Lin
 
 | AMI          | Script                                    |
 | ------------ | ----------------------------------------- |
-| Amazon Linux | [amazon.conf](./nginx-only/amazon.conf)   |
-| Ubuntu       | [ubuntu.conf](./nginx-only/ubuntu.conf)   |
-| Windows      | [windows.conf](./nginx-only/windows.conf) |
+| Amazon Linux | [amazon.conf](./user-data/nginx-only/amazon.conf)   |
+| Ubuntu       | [ubuntu.conf](./user-data/nginx-only/ubuntu.conf)   |
+| Windows      | [windows.conf](./user-data/nginx-only/windows.conf) |
